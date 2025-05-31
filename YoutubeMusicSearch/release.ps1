@@ -1,0 +1,2 @@
+dotnet publish Flow.Launcher.Plugin.YoutubeMusicSearch -c Release -r win-x64 --no-self-contained
+Compress-Archive -LiteralPath Flow.Launcher.Plugin.YoutubeMusicSearch/bin/Release/win-x64/publish -DestinationPath Flow.Launcher.Plugin.YoutubeMusicSearch/bin/YoutubeMusicSearch.zip -Force

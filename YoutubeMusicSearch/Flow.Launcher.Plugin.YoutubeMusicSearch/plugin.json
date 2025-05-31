@@ -1,0 +1,12 @@
+{
+    "ID": "FE2A493B62F04B7BA5BC07F76DA6D55C",
+    "ActionKeyword": "ytm",
+    "Name": "YoutubeMusicSearch",
+    "Description": "A youtube music search plugin for Flow Launcher",
+    "Author": "ValentinJDT",
+    "Version": "1.0.0",
+    "Language": "csharp",
+    "Website": "https://github.com/ValentinJDT/Flow.Launcher.Plugin.YoutubeMusicSearch",
+    "IcoPath": "YoutubeMusic.ico",
+    "ExecuteFileName": "Flow.Launcher.Plugin.YoutubeMusicSearch.dll"
+}

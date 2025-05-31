@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <AssemblyName>Flow.Launcher.Plugin.YoutubeMusicSearch</AssemblyName>
+    <PackageId>Flow.Launcher.Plugin.YoutubeMusicSearch</PackageId>
+    <Authors>ValentinJDT</Authors>
+    <PackageProjectUrl>https://github.com/ValentinJDT/Flow.Launcher.Plugin.YoutubeMusicSearch</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ValentinJDT/Flow.Launcher.Plugin.YoutubeMusicSearch</RepositoryUrl>
+    <PackageTags>flow-launcher flow-plugin</PackageTags>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="plugin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flow.Launcher.Plugin" Version="4.4.0" />
+    <PackageReference Include="System.Management" Version="9.0.5" />
+    <PackageReference Include="YouTubeMusicAPI" Version="2.2.8" />
+  </ItemGroup>
+
+</Project>
