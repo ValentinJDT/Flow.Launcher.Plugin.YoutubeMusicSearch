@@ -28,7 +28,9 @@ namespace Flow.Launcher.Plugin.YoutubeMusicSearch
             {
                 Result result = new Result();
                 result.Title = "Type any keyword to search musics...";
-                return new List<Result>();
+                result.IcoPath = "YoutubeMusic.ico";
+                result.AutoCompleteText = "";
+                return new List<Result>() { result };
             }
 
             IEnumerable<SongSearchResult> searchResults = Task.Run(async () => await client.SearchAsync<SongSearchResult>(query.Search)).Result;
@@ -55,6 +57,13 @@ namespace Flow.Launcher.Plugin.YoutubeMusicSearch
 
                     results.Add(result);
                 }
+            } else
+            {
+                Result result = new Result();
+                result.Title = "No music found";
+                result.IcoPath = "YoutubeMusic.ico";
+                result.AutoCompleteText = "";
+                results.Add(result);
             }
 
             return results;
