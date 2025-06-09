@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Valentin\\source\\repos\\YoutubeMusicSearch\\",
+  "WorkspaceRootPath": "C:\\Users\\Valentin\\source\\repos\\Flow.Launcher.Plugin.YoutubeMusicSearch\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9161C99-DE68-47EE-80E5-CF2CE5032382}|YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch.csproj|c:\\users\\valentin\\source\\repos\\youtubemusicsearch\\youtubemusicsearch\\flow.launcher.plugin.youtubemusicsearch\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9161C99-DE68-47EE-80E5-CF2CE5032382}|YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch.csproj|c:\\users\\valentin\\source\\repos\\flow.launcher.plugin.youtubemusicsearch\\youtubemusicsearch\\flow.launcher.plugin.youtubemusicsearch\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9161C99-DE68-47EE-80E5-CF2CE5032382}|YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch.csproj|solutionrelative:youtubemusicsearch\\flow.launcher.plugin.youtubemusicsearch\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9161C99-DE68-47EE-80E5-CF2CE5032382}|YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch.csproj|c:\\users\\valentin\\source\\repos\\youtubemusicsearch\\youtubemusicsearch\\flow.launcher.plugin.youtubemusicsearch\\plugin.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E9161C99-DE68-47EE-80E5-CF2CE5032382}|YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch.csproj|solutionrelative:youtubemusicsearch\\flow.launcher.plugin.youtubemusicsearch\\plugin.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E9161C99-DE68-47EE-80E5-CF2CE5032382}|YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch.csproj|c:\\users\\valentin\\source\\repos\\flow.launcher.plugin.youtubemusicsearch\\youtubemusicsearch\\flow.launcher.plugin.youtubemusicsearch\\flow.launcher.plugin.youtubemusicsearch.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E9161C99-DE68-47EE-80E5-CF2CE5032382}|YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch.csproj|solutionrelative:youtubemusicsearch\\flow.launcher.plugin.youtubemusicsearch\\flow.launcher.plugin.youtubemusicsearch.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9161C99-DE68-47EE-80E5-CF2CE5032382}|YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch.csproj|c:\\users\\valentin\\source\\repos\\flow.launcher.plugin.youtubemusicsearch\\youtubemusicsearch\\flow.launcher.plugin.youtubemusicsearch\\processutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9161C99-DE68-47EE-80E5-CF2CE5032382}|YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch.csproj|solutionrelative:youtubemusicsearch\\flow.launcher.plugin.youtubemusicsearch\\processutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "plugin.json",
-              "DocumentMoniker": "C:\\Users\\Valentin\\source\\repos\\YoutubeMusicSearch\\YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\plugin.json",
-              "RelativeDocumentMoniker": "YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\plugin.json",
-              "ToolTip": "C:\\Users\\Valentin\\source\\repos\\YoutubeMusicSearch\\YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\plugin.json",
-              "RelativeToolTip": "YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\plugin.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-31T21:21:12.033Z"
+              "Title": "Flow.Launcher.Plugin.YoutubeMusicSearch",
+              "DocumentMoniker": "C:\\Users\\Valentin\\source\\repos\\Flow.Launcher.Plugin.YoutubeMusicSearch\\YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch.csproj",
+              "RelativeDocumentMoniker": "YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch.csproj",
+              "ToolTip": "C:\\Users\\Valentin\\source\\repos\\Flow.Launcher.Plugin.YoutubeMusicSearch\\YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch.csproj",
+              "RelativeToolTip": "YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-09T18:25:13.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProcessUtils.cs",
+              "DocumentMoniker": "C:\\Users\\Valentin\\source\\repos\\Flow.Launcher.Plugin.YoutubeMusicSearch\\YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\ProcessUtils.cs",
+              "RelativeDocumentMoniker": "YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\ProcessUtils.cs",
+              "ToolTip": "C:\\Users\\Valentin\\source\\repos\\Flow.Launcher.Plugin.YoutubeMusicSearch\\YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\ProcessUtils.cs",
+              "RelativeToolTip": "YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\ProcessUtils.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAApwCAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T18:21:40.023Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\Valentin\\source\\repos\\YoutubeMusicSearch\\YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Main.cs",
+              "DocumentMoniker": "C:\\Users\\Valentin\\source\\repos\\Flow.Launcher.Plugin.YoutubeMusicSearch\\YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Main.cs",
               "RelativeDocumentMoniker": "YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Main.cs",
-              "ToolTip": "C:\\Users\\Valentin\\source\\repos\\YoutubeMusicSearch\\YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Main.cs",
+              "ToolTip": "C:\\Users\\Valentin\\source\\repos\\Flow.Launcher.Plugin.YoutubeMusicSearch\\YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Main.cs",
               "RelativeToolTip": "YoutubeMusicSearch\\Flow.Launcher.Plugin.YoutubeMusicSearch\\Main.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowEAAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAEwFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T20:55:28.929Z",
+              "WhenOpened": "2025-06-09T18:21:02.826Z",
               "EditorCaption": ""
             }
           ]
