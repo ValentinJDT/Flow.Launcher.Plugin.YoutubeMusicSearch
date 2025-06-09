@@ -51,6 +51,7 @@ namespace Flow.Launcher.Plugin.YoutubeMusicSearch
 
                     result.Action = context =>
                     {
+                        ProcessUtils.CloseWindowWhoContains("YouTube Music -");
                         StartProcess(songResult.Id);
                         return true;
                     };
@@ -69,16 +70,27 @@ namespace Flow.Launcher.Plugin.YoutubeMusicSearch
             return results;
         }
 
-        private void StartProcess(string musicId)
+        private async void StartProcess(string musicId)
         {
-            Process cmd = new Process();
-            cmd.StartInfo.FileName = "C:\\Program Files\\Google\\Chrome\\Application\\chrome_proxy.exe";
-            cmd.StartInfo.Arguments = getProcessUrlMusic(musicId);
-            cmd.StartInfo.RedirectStandardInput = true;
-            cmd.StartInfo.RedirectStandardOutput = true;
-            cmd.StartInfo.CreateNoWindow = true;
-            cmd.StartInfo.UseShellExecute = false;
-            cmd.Start();
+            ProcessStartInfo startInfo = new ProcessStartInfo {
+                FileName = "C:\\Program Files\\Google\\Chrome\\Application\\chrome_proxy.exe",
+                Arguments = getProcessUrlMusic(musicId),
+                RedirectStandardInput = true,
+                RedirectStandardOutput = true,
+                CreateNoWindow = true,
+                UseShellExecute = false,
+            };
+
+            using(Process process = new Process { StartInfo = startInfo }) {
+                process.Start();
+
+                // Asynchronously wait for the process to be ready for input
+                await Task.Run(() => process.WaitForInputIdle());
+
+                await Task.Delay(800);
+
+                ProcessUtils.MinimizeWindow("YouTube Music -");
+            }
         }
 
         private string getProcessUrlMusic(string musicId)
